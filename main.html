@@ -1,0 +1,40 @@
+<! DOCTYPE HTML>
+  <head>
+    <meta charset="utf-8">
+    <meta name="DV" content="">
+    <title>Eindhoven - Alerts in public spaces</title>
+
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+  </head>
+
+  <div id="tooltip" class="hidden">
+    <p><span id="value"></p>
+  </div>
+
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="container clearfix">
+          <h1>Overview <span>DoCHANGE</span></h1>
+        </div>
+      </header>
+
+      <div class="container clearfix">
+        <div class="widget big graph">
+          <h3 id="hd_chart3"></h3>
+          <div class="canvas-container">
+            <svg id="chart3" width="75%" viewBox="0 0 1000 800"></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+    <script  src="js/main.js"></script>
+
+  </body>
+</html>

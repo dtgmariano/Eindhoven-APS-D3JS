@@ -1,5 +1,5 @@
 var svg = d3.select()
-d3.select("#htmlEmbed").append("img")
-    .attr("src","resources/Demomap.svg")
+d3.select("mychart").append("img")
+    .attr("src","resources/DemoMap.svg")
     .attr("width", 100)
-    .attr("height", 100
+    .attr("height", 100);
